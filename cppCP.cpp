@@ -1,6 +1,42 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
-// Print contents of an array in reverse order in C++
+int main()
+{
+
+    int n;
+    cin>>n;
+    int ans=0;
+    int i=0;
+    while(n!=0)  
+    {
+        int bit=n&1;
+        ans=(bit*pow(10,i)) + ans;
+        n=n>>1;
+        i++;
+    }
+    cout<<ans<<endl;
+    int m=ans;
+    cout<<m<<endl;
+
+    int ans1=0,j=0;
+    while (m!=0)
+    {
+       int digit=m%10;
+       if (digit==1)
+       {
+           ans1 = ans1 + pow(2,i);
+           cout<<ans1<<endl;
+       }
+       
+       m=m/10;
+       j++;
+    }
+    cout<<ans1;
+}
+    
+
+/*// Print contents of an array in reverse order in C++
 // using array indices
 int main()
 {
@@ -12,7 +48,7 @@ int main()
 }
 
 
-/*{   int m,i;
+{   int m,i;
     int arr[m];
     for ( i = 0; i < m; i++)
     {
