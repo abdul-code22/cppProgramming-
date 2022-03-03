@@ -3,7 +3,7 @@
 using namespace std;
 
 int main()
-{   //binary to deciamal conversion without array
+/*{   //binary to deciamal conversion without array
     int n;
     cin>>n;
     
@@ -21,7 +21,7 @@ int main()
         
     }
     cout<<ans;
-}
+}*/
 
 /*{   // deciamal to binary convertion without array
     int n;
