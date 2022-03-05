@@ -2,7 +2,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{   //Simple Calculator
+
+{   //power funtion
+    
+}
+
+/*{   //Simple Calculator
     int a,b;
     cout<<"Enter the value of a: ";
     cin>>a;
@@ -31,4 +36,4 @@ int main()
 
 
     return 0;
-}
+}*/
