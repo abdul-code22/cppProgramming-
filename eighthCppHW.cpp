@@ -1,7 +1,10 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-int main()
+
+//amount teller with notes
+
+int main() //amount teller with notes
 {
     int amt,num;
     cin>>amt;
@@ -52,3 +55,42 @@ int main()
     return 0;
 
 }
+
+//Fibonacci series funtion
+
+/* //Fibonacci series funtion
+void fibonacci(int n){
+    int a=0,b=1;
+    cout<<a<<" "<<b<<" ";
+    for (int i = 0; i < n; i++)
+    {
+        int sum = a + b;
+        cout<<sum<<" ";
+        a=b;
+        b=sum;
+    }
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    fibonacci(n);
+
+}*/
+
+//AP nth term Funtion
+
+/* //AP nth term
+int AP(int n)
+{
+    int apNth=(3*n) + 7;
+    return apNth;
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<AP(n);
+}*/
