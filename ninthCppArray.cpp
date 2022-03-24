@@ -52,6 +52,6 @@ int main()
     cout<<"Maximun is "<<getMin(num,size)<<endl;
 
     
-    //int size=sizeof(arrY)/sizeof(int);
+    //int size=sizeof(arrY)/sizeof(int);    //this is not the best method, brust when some index are empty
     //cout<<size<<endl;
 }
