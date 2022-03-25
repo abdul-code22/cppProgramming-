@@ -1,7 +1,26 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+/* //Sum of array elements Home Work question
+int main()
+{   
+    int n;
+    cin>>n;
+    int array[20];
+    for (int i = 0; i < n; i++)
+    {
+        cin>>array[i];
+    }
+    int sum=0;
+    for (int  i = 0; i < n; i++)
+    {
+        sum=sum+array[i];
+    }
+    
+    cout<<"Sum is "<<sum;
+}*/
 
+/* //max and min of an array
 int getMax(int num[], int n)
 {  //maximum of array
     int maxm=INT_MIN;
@@ -54,4 +73,4 @@ int main()
     
     //int size=sizeof(arrY)/sizeof(int);    //this is not the best method, brust when some index are empty
     //cout<<size<<endl;
-}
+}*/
