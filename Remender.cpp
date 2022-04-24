@@ -2,18 +2,8 @@
 using namespace std;
 int main()
 {   
-    int i=0, n;
-    int a, b,r;
-    cin>>n;
-    
-        while (i<n)
-        {
-            cin >>a >> b;
-            r=a%b;
-            cout<< r << endl;
-            i++;
-        }
-        
-    return 0;
+    int a=0;
+    a=10+5*2*8/2+4;
+    cout<<a;
     
 }
