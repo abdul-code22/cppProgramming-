@@ -1,13 +1,13 @@
 #include<iostream>
-#include<bits/stdc++.h>
+#include<cmath>
 using namespace std;
  
- }
-int main()
-{
-    int arr[]={2,4,1,35,-4};
-   int rev[]= {reverse(arr,5)};
-}
+//  }
+// int main()
+// {
+//     int arr[]={2,4,1,35,-4};
+//    int rev[]= {reverse(arr,5)};
+// }
 /* //Leaner Search my Way
 int main()
 {
