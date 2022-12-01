@@ -1,5 +1,5 @@
 #include<iostream>
-#include<bits/stdc++.h>
+#include<math.h>
 using namespace std;
 /*   //power funtion
 int power(int a ,int b)

@@ -1,4 +1,5 @@
 #include<iostream>
+<<<<<<< HEAD
 #include<cmath>
 using namespace std;
  
@@ -8,6 +9,46 @@ using namespace std;
 //     int arr[]={2,4,1,35,-4};
 //    int rev[]= {reverse(arr,5)};
 // }
+=======
+#include<math.h>
+using namespace std;
+
+void swap(int x, int y, int temp) { //swap funtion
+    temp=x;
+    y=x;
+    y=temp;
+
+}
+ 
+ void reverse(int arr[], int size) // reverse the array
+ {
+    int start = 0;
+    int end =size-1;
+
+    while (start <= end)
+    {
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
+    }
+           
+ }
+
+ void printArray(int arr[], int n){ // print funtion array
+    for (int i=0; i<n; i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+ }
+int main() //driver code
+    {
+        int arr[]={2,4,1,35,-4,0};
+        reverse(arr,6);
+
+        printArray(arr,6);
+        
+    }
+>>>>>>> 510a2d3b0637e6ec09e314d1d3a3a06b3f7d3a42
 /* //Leaner Search my Way
 int main()
 {
